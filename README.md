@@ -25,8 +25,8 @@ In GUI window, select the .txt file to which you want to apply the ROI, then in 
 * STEP 2 - Cluster Analysis
 Execute by calling 'sobermanBatchClusterStormROIs'
 Select folder of files to be run, in subsequent listSelectGUI window, highlight files and move to the right side window, hit ok (now will have clustering.mat file)  This step takes some time, depending on how many files you run and how many workers you have available.
-* Before next step, go to the completed files from STEP 2 and shorten the file names, they were duplicated and become too long.
-STEP 3 - Per-ROI Cluster Statistics
+* STEP 3 - Per-ROI Cluster Statistics
+First, go to the completed files from STEP 2 and shorten the file names, they were duplicated and become too long.
 Execute by calling 'batchStormClusterStats'
 Select folder with clustering.mat files and run (now will have clustering_stats files in separate folders with 7 data figures for each file)
 * STEP 4 - Per-Condition Combined 
