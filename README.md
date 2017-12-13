@@ -8,7 +8,7 @@ This software was used for the following publications: AB Schmider, HL Elliott, 
 REQUIREMENTS
 
 MATLAB 2013b or later
-Distributed computing, Image Processing and statistical analyses toolboxes
+Toolboxes: Parallel Computing, Image Processing, Bioinformatics, Optimization, Signal Processing, Statistics and Machine Learning
 
 QUICK START
 
@@ -24,7 +24,17 @@ For two channels, a previous ROI from one channel and be applied to another chan
 In GUI window, select the .txt file to which you want to apply the ROI, then in subsequent GUI window select the .sroi file that has the ROI you want to use, save
 STEP 2 - Cluster Analysis
 Execute by calling 'sobermanBatchClusterStormROIs'
-Select folder of files to be run, in subsequent listSelectGUI window, highlight files and move to the right side window, hit ok (now will have clustering.mat file)
+Select folder of files to be run, in subsequent listSelectGUI window, highlight files and move to the right side window, hit ok (now will have clustering.mat file)  This step takes some time, depending on how many files you run and how many workers you have available.
+* Before next step, go to the completed files from STEP 2 and shorten the file names, they were duplicated and become too long.
+STEP 3 - Per-ROI Cluster Statistics
+Execute by calling 'batchStormClusterStats'
+Select folder with clustering.mat files and run (now will have clustering_stats files in separate folders with 7 data figures for each file)
+STEP 4 - Per-Condition Combined 
+make new folder for each condition and copy corresponding clustering.mat files into each folder.
+Execute by calling 'combineStormClusterStats'
+Select cluster_stats folder from Step 3, select same folder to save. (now will have combined_stats.mat file, 6 new data figures)
+
+
 
 
 
