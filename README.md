@@ -33,6 +33,12 @@ Select folder with clustering.mat files and run (now will have clustering_stats 
 make new folder for each condition and copy corresponding clustering.mat files into each folder.
 Execute by calling 'combineStormClusterStats'
 Select cluster_stats folder from Step 3, select same folder to save. (now will have combined_stats.mat file, 6 new data figures)
+* To make normalized-point weighted histograms:
+make subfolders for each condition using combined_stats.mat files (one file/folder)
+put these folders(s) into its main folder
+Execute by calling 'stormCombinedStatsAndConditionComparisonFigures('','condStr',{'type here what','ever','words','are','used','for','naming','folders'},'DataType','Point-weighted')
+
+
 
 
 
