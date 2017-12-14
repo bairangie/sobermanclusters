@@ -13,7 +13,7 @@ Toolboxes: Parallel Computing, Image Processing, Bioinformatics, Optimization, S
 
 **QUICK START**
 
-Clone or download all files into the desired folder via link or through git clone
+Clone or download all files into the desired folder via link or through git clone. Add source file to path.
 https://github.com/bairangie/sobermanclusters.git
 
 Navigate to local cloned repository in MATLAB file path
