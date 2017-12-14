@@ -16,9 +16,12 @@ Toolboxes: Parallel Computing, Image Processing, Bioinformatics, Optimization, S
 Clone or download all files into the desired folder via link or through git clone. 
 https://github.com/bairangie/sobermanclusters.git
 
+
+For unbaised cluster analysis:
+
 Navigate to local cloned repository in MATLAB file path.  Add code files to path.
 Begin by editing .txt files so that only columns A-R exist
-For unbaised cluster analysis:
+
 * STEP 1 - Define ROI
 Execute by calling 'saveStormROI' at command and select folder with .txt file
 Select ROI and save (now will have a .sroi file)
@@ -40,6 +43,7 @@ make subfolders for each condition using combined_stats.mat files (one file/fold
 Execute by calling 'stormCombinedStatsAndConditionComparisonFigures('','condStr',{'type here what','ever','words','are','used','for','naming','folders'},'DataType','Point-weighted')
 
 For localization density:
+
 Execute by opening the LocalizationDensity.m file in the command window. (The readbinfile.m file is included in path)
 Select .bin file to be analyzed.
 Save
