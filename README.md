@@ -13,10 +13,10 @@ Toolboxes: Parallel Computing, Image Processing, Bioinformatics, Optimization, S
 
 **QUICK START**
 
-Clone or download all files into the desired folder via link or through git clone. Add source file to path.
+Clone or download all files into the desired folder via link or through git clone. 
 https://github.com/bairangie/sobermanclusters.git
 
-Navigate to local cloned repository in MATLAB file path
+Navigate to local cloned repository in MATLAB file path.  Add source (contains code) file to path.
 Begin by editing .txt files so that only columns A-R exist 
 * STEP 1 - Define ROI
 Execute by calling 'saveStormROI' at command and select folder with .txt file
