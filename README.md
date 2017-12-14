@@ -44,7 +44,7 @@ Execute by calling 'stormCombinedStatsAndConditionComparisonFigures('','condStr'
 
 For localization density:
 
-Execute by opening the LocalizationDensity.m file in the command window. (The readbinfile.m file is included in path)
+* Execute by opening the LocalizationDensity.m file in the command window. (The readbinfile.m file is included in path)
 Select .bin file to be analyzed.
 Save
 You can change the heat map percentage within the code for varied pseduocoloring results.
